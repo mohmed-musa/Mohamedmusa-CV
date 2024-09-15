@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Mohamed Musa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact, .skills {
+            margin-bottom: 20px;
+        }
+        .contact ul, .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact ul li, .skills ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>محمد موسى</h1>
+        <p>مصمم جرافيك محترف بخبرة قوية في تصميمات التسويق والإعلانات. أكثر من 2 سنوات من الخبرة في إنشاء الرسومات الإعلانية والإبداعية.</p>
+
+        <div class="section contact">
+            <h2>معلومات التواصل</h2>
+            <ul>
+                <li>الهاتف: 01061078103</li>
+                <li>البريد الإلكتروني: mohamed@example.com</li>
+                <li>الموقع: <a href="https://www.behance.net/mohamed-musa">behance.net/mohamed-musa</a></li>
+                <li>العنوان: 12 شارع النووي، حدائق الزيتون، القاهرة، مصر</li>
+            </ul>
+        </div>
+
+        <div class="section education">
+            <h2>التعليم</h2>
+            <p>بكالوريوس، كلية الآداب، جامعة عين شمس - قسم الإرشاد السياحي والحضارة المصرية القديمة (2011 - 2015)</p>
+        </div>
+
+        <div class="section experience">
+            <h2>الخبرات العملية</h2>
+            <p>مصمم جرافيك في Sodoko Agency (2024 - حتى الآن): إدارة التصميم الرقمي وتطوير العلامات التجارية في بيئة سريعة الخطى.</p>
+            <p>مصمم جرافيك في Masar Agency (2023 - 2024): تصميم اللوحات الرقمية والإعلانات.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>المهارات</h2>
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Premiere</li>
+                <li>Adobe After Effects</li>
+                <li>Adobe InDesign</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
